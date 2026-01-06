@@ -22,23 +22,4 @@ Optional headless mode to run without opening a browser window.
 
 Start/Stop tracking multiple times safely.
 
-Requirements
 
-Python 3.11+
-
-Microsoft Edge browser
-
-Microsoft Edge WebDriver (matching Edge version)
-
-Python packages:
-
-pip install selenium requests
-
-Setup
-1️⃣ Download Edge WebDriver
-
-Go to: Microsoft Edge WebDriver
-
-Download the driver matching your Edge version.
-
-Place the driver somewhere accessible
