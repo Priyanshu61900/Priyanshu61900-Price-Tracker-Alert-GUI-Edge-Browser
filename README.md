@@ -1,2 +1,44 @@
-# Priyanshu61900-Price-Tracker-Alert-GUI-Edge-Browser
-A Python-based Price Tracker with a GUI that monitors product prices on Amazon and eBay, logs all activity, and sends email alerts when a target price is reached.  This program uses Selenium WebDriver with Microsoft Edge to scrape live prices, handles dynamic pricing elements, and provides a real-time console for logs.
+Price Tracker & Alert GUI
+
+A Python-based Price Tracker with a GUI that monitors product prices on Amazon and eBay, logs all activity, and sends email alerts when a target price is reached.
+
+This project uses Selenium WebDriver with Microsoft Edge to scrape live prices, handles dynamic pricing elements, and provides a real-time console for logs.
+
+Features
+
+Track product prices on Amazon and eBay.
+
+GUI interface to enter product URL, target price, and receiver email.
+
+Real-time console logs for tracking activity and errors.
+
+Handles target prices with commas (e.g., 63,579).
+
+Sends email alerts when the price drops to or below the target.
+
+Uses Microsoft Edge browser (Selenium) for reliable scraping.
+
+Optional headless mode to run without opening a browser window.
+
+Start/Stop tracking multiple times safely.
+
+Requirements
+
+Python 3.11+
+
+Microsoft Edge browser
+
+Microsoft Edge WebDriver (matching Edge version)
+
+Python packages:
+
+pip install selenium requests
+
+Setup
+1️⃣ Download Edge WebDriver
+
+Go to: Microsoft Edge WebDriver
+
+Download the driver matching your Edge version.
+
+Place the driver somewhere accessible
